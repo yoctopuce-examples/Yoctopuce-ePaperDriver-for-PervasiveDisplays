@@ -1,5 +1,7 @@
 # Yoctopuce driver for Pervasive Displays screens
 
+![](images/banner.jpg)
+
 In accordance with the <i>Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
 license</i> of Pervasive Displays display drivers, this project is intended to
 share with the community the code used by Yoctopuce ePaper display driver
@@ -86,19 +88,20 @@ with the new data structure used by BWRY panels.
 
 ## Structure of this project
 
-This project is a stand-alone MPLAB X 5.40 project that can be flashed
-into the MCU of a [Yocto-Display-ePaper-C](https://www.yoctopuce.com/EN/products/yocto-display-ePaper-C)
-to produce a working proof that the driver is working.
+This project is a stand-alone MPLAB X 5.40 project, that you can build and flash using an ICD interface
+on the PIC24FJ256DA206 MCU. 
 
-* `nbproject`
-	> This directory contains MPLAB X project files (based on NETBeans)
+| Fichier / Dossier | Description                                                                                                                                                         |
+|---|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `nbproject` | This directory contains MPLAB X project files (based on NETBeans) |
+| `ydisplay_PervasiveDisplays.c` | This file is the key component of this driver, and is included "as is" in the firmware of [Yocto-Display-ePaper-C](https://www.yoctopuce.com/EN/products/yocto-display-ePaper-C). |
+| `main.c` | This file implements a simple ready-to-use stand-alone application to demonstrates the usage of the driver on a real device. |
+| `api.h` | This file serves as linkage between `ydisplay_PervasiveDisplays.c` and `main.c` |
 
-* `ydisplay_PervasiveDisplays.c`
-	> This file is the key component of this driver, and is included "as is" in the firmware of [Yocto-Display-ePaper-C](https://www.yoctopuce.com/EN/products/yocto-display-ePaper-C).
-* `main.c` 
-	> This file implements a simple ready-to-use stand-alone application to demonstrates the usage of the driver on a real device.	
-* `api.h`
-	> This file serves as linkage between `ydisplay_PervasiveDisplays.c` and `main.c` 
+For a quick test, you can reflash a [Yocto-Display-ePaper-C](https://www.yoctopuce.com/EN/products/yocto-display-ePaper-C)
+using an ICD to produce a working proof of concept.
+![Build this project and flash it on a Yocto-Display-ePaper-C](images/Yocto-Display-ePaper-C.jpg "Yocto-Display-ePaper-C")
+   
 
 ## (C) Copyright and license
 
