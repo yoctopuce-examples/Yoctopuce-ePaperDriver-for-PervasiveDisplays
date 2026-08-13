@@ -22,27 +22,27 @@ libraries from Pervasive Displays Inc.:
 * Pervasive Displays EPD hardware drivers (release 10.0)
      https://github.com/PervasiveDisplays/Pervasive_Wide_Small (Film K)
      https://github.com/PervasiveDisplays/Pervasive_BWRY_Small (Film Q)
-     Copyright (c) Pervasive Displays, 2010-2025
-     Portions (c) Rei Vilo, 2010-2025
-     Based on highView technology
-     For exclusive use with Pervasive Displays screens
-     License: Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
+     * Copyright (c) Pervasive Displays, 2010-2025
+     * Portions (c) Rei Vilo, 2010-2025
+     * Based on highView technology
+     * For exclusive use with Pervasive Displays screens
+     * License: Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
  
 * Pervasive Displays Library Suite - Basic edition - Fast Update (release 8.2)
      https://github.com/PervasiveDisplays/PDLS_EXT3_Basic_Fast (Film P)
-     Copyright (c) Rei Vilo, 2010-2025
-     Portions (c) Pervasive Displays, 2010-2025
-     Based on highView technology
-     For exclusive use with Pervasive Displays screens
-     License: Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
+     * Copyright (c) Rei Vilo, 2010-2025
+     * Portions (c) Pervasive Displays, 2010-2025
+     * Based on highView technology
+     * For exclusive use with Pervasive Displays screens
+     * License: Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
 
 * Pervasive Displays Library Suite - Basic edition - Global Update (release 8.2)
      https://github.com/PervasiveDisplays/PDLS_EXT3_Basic_Global (Film C,J)
-     Copyright (c) Rei Vilo, 2010-2025
-     Portions (c) Pervasive Displays, 2010-2025
-     Based on highView technology
-     For exclusive use with Pervasive Displays screens
-     License: Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
+     * Copyright (c) Rei Vilo, 2010-2025
+     * Portions (c) Pervasive Displays, 2010-2025
+     * Based on highView technology
+     * For exclusive use with Pervasive Displays screens
+     * License: Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
 
 ## Changes compared to the original material
 
@@ -103,9 +103,10 @@ using an ICD to produce a working proof of concept.
 ![Build this project and flash it on a Yocto-Display-ePaper-C](images/Yocto-Display-ePaper-C.jpg "Yocto-Display-ePaper-C")
    
 
-## (C) Copyright and license
+## Copyright and License
 
-These enhancementsd are Copyright (c) Yoctopuce Sarl, 2026
-License: Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
+These enhancements are:
+* Copyright (c) Yoctopuce Sarl, 2026
+* License: Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
 
 If you reuse any part of this work, you must give appropriate credit.
