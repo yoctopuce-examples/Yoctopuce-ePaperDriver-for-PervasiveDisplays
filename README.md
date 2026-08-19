@@ -7,10 +7,14 @@ license</i> of Pervasive Displays display drivers, this project is intended to
 share with the community the code used by Yoctopuce ePaper display driver
 in its device named [Yocto-Display-ePaper-C](https://www.yoctopuce.com/EN/products/yocto-display-ePaper-C).
 
-
 This project is NOT the full firmware of [Yocto-Display-ePaper-C](https://www.yoctopuce.com/EN/products/yocto-display-ePaper-C).
 It is merely a test application to demonstrate the usage of our
-rewritten driver for Pervasive Displays ePaper panels.
+rewritten framebuffer driver for Pervasive Displays ePaper panels.
+
+Please also note that this driver does not include any drawing primitive
+beyond PutPixel, which is used to illusrate the framebuffer encoding,
+because we are not using any drawing primitives from Pervasive
+Displays Inc libraries.
 
 ## This project is derivative work
 
@@ -63,7 +67,7 @@ as a single vanilla `.c` file.
 
 ### High performance on 16-bit PIC24F MCU
 
-This code is optimized to run on a 16-bitt MCU, using the hardware I/O peripherals
+This code is optimized to run on a 16-bit MCU, using the hardware I/O peripherals
 with interrupt-based processing for fast SPI communication.
 
 ### No blocking function
